@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>CV</title>
+  </head>
+  <body>
+    <header></header>
+    <main class="wrapper">
+      <h1>Elena Valiullina</h1>
+      <div class="contacts">
+        <h2>Contacts</h2>
+        <ul>
+          <li><b>Location:</b> Tolyatti, Russian Federation</li>
+          <li>
+            <b>Email:</b>
+            <a href="mailto:walle0908@yandex.ru"> walle0908@yandex.ru</a>
+          </li>
+          <li>
+            <b>Discord:</b>
+
+            <a href="https://discord.com/users/1333510549639528498">
+              @walle908</a
+            >
+          </li>
+          <li>
+            <b>GitHub:</b>
+            <a href="https://github.com/Walle908"> Walle908</a>
+          </li>
+        </ul>
+      </div>
+      <div class="about">
+        <h2>About me</h2>
+        <p>
+          I have basic skills of frontend developer. <br />
+          I'd like to broaden my knowlege and get more practise in this field.
+          <br />I like leaning new things and work hard to reach the goal.
+          <br />I always try to do the best I can. I'm also a good team player.
+        </p>
+      </div>
+      <div class="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li class="list__item">HTML & CSS</li>
+          <li class="list__item">Java Script</li>
+          <li class="list__item">NodeJS</li>
+          <li class="list__item">Git, GitHub</li>
+        </ul>
+      </div>
+      <div class="language">
+        <h2>Language</h2>
+        <ul>
+          <li><b>Russia</b> - native</li>
+          <li><b>English</b> - intermediate B1/B2</li>
+        </ul>
+      </div>
+      <div class="code-example"></div>
+      <h2>Code Example</h2>
+      <div class="code">
+        <p>KATA from CODEWARS:</p>
+        <p>
+          You are given an array. Complete the function that returns the number
+          of ALL elements within an array, including any nested arrays.
+        </p>
+        <code>
+          function deepCount(a) { <br />
+          return a.reduce((prev, curr) => prev +(Array.isArray(curr) ?
+          deepCount(curr) : 0), a.length);<br />
+          }
+        </code>
+      </div>
+      <div class="courses">
+        <h2>Courses</h2>
+        <ul>
+          <li><a href="learnjavascript.ru">JavaScript Manual</a></li>
+          <li>
+            <a href="https://webref.ru/course"
+              >HTML and CSS courses on WebReference</a
+            >
+          </li>
+        </ul>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
