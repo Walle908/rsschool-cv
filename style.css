@@ -1,0 +1,25 @@
+body {
+  color: #222222;
+  background-color: rgba(0, 255, 255, 0.6);
+  font-family: "Popins", sans-serif;
+  font-size: 20px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  padding: 16px;
+}
+
+a {
+  color: #222222;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+a:hover {
+  color: #32cd32;
+}
+
+.list__item {
+  font-weight: bold;
+}
